@@ -63,6 +63,8 @@ Para alterações no componentes do ReactJS você precisará do [NodeJS](https:/
 
 ## Segurança
 
+Será aceita somente imagem JPG no upload da imagem no cadastro da notícia.
+
 O Framework utilizado suporta autenticação, porém não ativei pois não era necessário ao teste, visto que também elevaria o tempo de desenvolvimento para integrar por exemplo, uma notícia ao usuário logado e exibiar a informação na API REST desenvolvida e há um filtro por TOKEN CSRF para evitar ataques aos campos/banco.
 
 ## Imagem exemplo
