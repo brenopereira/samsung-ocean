@@ -54,6 +54,9 @@ Para alterações no componentes do ReactJS você precisará do [NodeJS](https:/
 
 - /storage/app/public - Todos as imagens onde são enviadas no cadastro da notícia
 
+- /public/js/app.js - Todo o Frontend compactado por meio do Laravel Mix.
+- /public/css - Pasta de saida de todos o estilos compactados diretamente da pasta /resources/assets/sass
+
 ## Segurança
 
 O Framework utilizado suporta autenticação, porém não ativei pois não era necessário ao teste, visto que também elevaria o tempo de desenvolvimento para integrar por exemplo, uma notícia ao usuário logado e exibiar a informação na API REST desenvolvida e há um filtro por TOKEN CSRF para evitar ataques aos campos/banco.
