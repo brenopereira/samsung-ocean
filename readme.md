@@ -24,11 +24,14 @@ O projeto se tornou em SPA, onde  não há reload da página para a navegação 
 
 ## Como rodar o projeto
 
-Para utilizar o projeto você deverá conter o PHP 7.1.3 ou superior a esta versão. Para baixar todos os pacotes necessários, deverá também ter o [Composer para windows](https://getcomposer.org/Composer-Setup.exe) ou [Composer para Linux/MacOS](https://getcomposer.org/download/) e rodar o comando após a intalação no diretório do projeto: composer update - Será instalado todos os pacotes necessários.
+Observação importante: Para utilizar o projeto você deverá conter o PHP 7.1.3 ou superior a esta versão. Para baixar todos os pacotes necessários, deverá também ter o [Composer para windows](https://getcomposer.org/Composer-Setup.exe) ou [Composer para Linux/MacOS](https://getcomposer.org/download/) e rodar o comando após a intalação no diretório do projeto: composer update - Será instalado todos os pacotes necessários.
 
 Para alterações no componentes do ReactJS você precisará do [NodeJS](https://nodejs.org) para compilar os arquivos em JavaScript.
 
-Para finalizar e rodar o projeto, é ncessário também, alterar o arquivo .env com as informações do banco de dados, alterando: DB_DATABASE, DB_USERNAME e DB_PASSWORD com as informações do seu servidor de banco de dados.
+1 - Para rodar o projeto, é ncessário alterar o arquivo .env (arquivo onde fica as informações do banco de dados), alterando: DB_DATABASE, DB_USERNAME e DB_PASSWORD com as informações do seu servidor de banco de dados
+2 - Rode o comando "php artisan serve", na pasta do projeto para inciar o projeto e acessar: http://localhost:8000, ou configurar o servidor web para a pasta public ou então, copiar todo o projeto para o WAMP, XAMPP, EasyPHP ou outro servidor integrado. 
+3 - Rode o comando: "php artisan storage:link" para linkar todas as imagens as notícias.
+
 
 ## Estrutura de pastas
 
