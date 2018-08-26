@@ -6,7 +6,9 @@ O projeto consiste em uma pequena plataforma CMS, de gestão de conteúdo.
 Foi criada uma pequena API REST de notícias, onde informa todas as notícias e também, exibe informação de uma única notícia, foi necessário para repassar os dados para o ReactJS, biblioteca utilizada para o Frontend. 
 O projeto se tornou em SPA, onde  não há reload da página para a navegação na parte do Frontend. As tecnologias utilizadas foram:
 
+- [Composer](https://getcomposer.org).
 - [Laravel 5.6](https://laravel.com).
+- [Bootstrap](https://getbootstrap.com/).
 - [ReactJS](https://reactjs.org/).
 - [SASS](https://sass-lang.com/).
 - [NodeJS](https://nodejs.org/en/).
