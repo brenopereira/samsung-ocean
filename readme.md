@@ -1,4 +1,4 @@
-<p align="center"><img src="http://www.oceanbrasil.com/img/general/logoOceanI.png"></p>
+<p align="center"><img src="https://github.com/brenopereira/samsung-ocean/blob/master/logo.png?raw=true"></p>
 
 ## Sobre o projeto
 
