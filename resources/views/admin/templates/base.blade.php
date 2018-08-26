@@ -1,0 +1,7 @@
+@include('admin.templates.components.head')
+@include('admin.templates.components.navbar')
+@include('admin.templates.components.header')
+@include('admin.templates.components.nav')
+@include('admin.templates.components.title')
+@yield('content')
+@include('admin.templates.components.footer')

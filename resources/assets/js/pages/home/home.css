@@ -1,0 +1,54 @@
+.samsung-feature {
+    background: linear-gradient(to bottom right, #5cb3c1, #2196f3);
+    height: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.samsung-feature .samsung-feature-background {
+    background-image: url('/comic.gif');
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    opacity: .3;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+.samsung-feature .samsung-feature-content {
+    position: relative;
+    padding: 150px 0 100px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.samsung-feature .samsung-feature-content h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+.samsung-feature .samsung-feature-content p {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+.samsung-information {
+    width: 100%;
+    text-align: center;
+}
+
+.samsung-information h3 {
+    color: #3b7b8c;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding: 50px 0;
+}
+
+.samsung-feature .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

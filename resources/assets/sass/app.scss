@@ -1,0 +1,17 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-nav {
+  float: right !important;
+  margin-right: -15px;
+  -webkit-box-orient: unset !important;
+  -webkit-box-direction: normal !important;
+  flex-direction: initial !important;
+}

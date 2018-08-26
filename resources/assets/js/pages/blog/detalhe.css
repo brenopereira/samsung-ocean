@@ -1,0 +1,53 @@
+/*
+ *
+ * Estágio - Samsung Ocean - detalhe.css
+ *
+ * Todos os direitos reservados: brenopereira <breno.pereira@alumiar.me>
+ * Arquivo alterado em: 8/25/18 9:32 PM
+ *
+ */
+
+.samsung-blog-single .samsung-blog-item-single {
+    background: linear-gradient(to bottom right, #505050, #000000);
+    position: relative;
+}
+
+.samsung-blog-single .samsung-blog-item-single .samsung-blog-background {
+    content: "";
+    background-image: url('https://www.spawnroom.com/wp-content/uploads/2016/07/csgo-top10-1.jpg');
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: .3;
+    background-size: cover;
+    background-position: center top;
+}
+
+.samsung-blog-single .samsung-blog-item-single .samsung-blog-title {
+    padding: 150px 0;
+    text-align: center;
+}
+
+.samsung-blog-single .samsung-blog-item-single h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 100;
+    color: #fff;
+}
+
+.samsung-blog-single .samsung-blog-item-single p {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    z-index: 100;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.samsung-blog-single .samsung-blog-content {
+    padding: 50px 0;
+}

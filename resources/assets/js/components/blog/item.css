@@ -1,0 +1,54 @@
+/*
+ *
+ * Estágio - Samsung Ocean - item.css
+ *
+ * Todos os direitos reservados: brenopereira <breno.pereira@alumiar.me>
+ * Arquivo alterado em: 8/25/18 9:30 PM
+ *
+ */
+
+.samsung-blog-component .samsung-blog-item {
+    background: linear-gradient(to bottom right, #505050, #000000);
+    position: relative;
+    min-height: 450px;
+    margin-bottom: 20px;
+}
+
+.samsung-blog-component .samsung-blog-item .samsung-blog-background {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: .3;
+    background-size: cover;
+    background-position: center center;
+}
+
+.samsung-blog-component .samsung-blog-item .samsung-blog-description {
+    z-index: 1000;
+    position: absolute;
+    padding: 10px 20px;
+    bottom: 0;
+}
+
+.samsung-blog-component .samsung-blog-item h3 {
+    color: #fff;
+}
+
+.samsung-blog-component .samsung-blog-item span {
+    font-size: 13px;
+    color: #fff;
+}
+
+.samsung-blog-component .samsung-blog-item p {
+    position: relative;
+    color: #fff;
+}
+
+.samsung-blog-component .samsung-blog-item a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}

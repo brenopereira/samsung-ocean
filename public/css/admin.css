@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+/*!
+ *
+ * Estágio - Samsung Ocean - admin.scss
+ *
+ * Todos os direitos reservados: brenopereira <breno.pereira@alumiar.me>
+ * Arquivo alterado em: 8/25/18 5:19 AM
+ *
+ */
+
+/*!
+ *
+ * Estágio - Samsung Ocean - _nav.scss
+ *
+ * Todos os direitos reservados: brenopereira <breno.pereira@alumiar.me>
+ * Arquivo alterado em: 8/25/18 5:17 AM
+ *
+ */
+
+.nav-samsung {
+  background: #eaeaea;
+  padding: 0px;
+  border-radius: 0px;
+  margin: 0px;
+}
+
+.nav-samsung ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-samsung ul li {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.nav-samsung ul li a {
+  text-decoration: none;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.nav-samsung ul li a:hover {
+  padding: 10px 20px;
+  display: inline-block;
+  background: #d7d7d7;
+  color: #555555;
+}
+
+.nav-samsung ul li .active {
+  padding: 10px 20px;
+  display: inline-block;
+  background: #555555;
+  color: white;
+}
+
+.nav-samsung ul li .inative {
+  padding: 10px 20px;
+  display: inline-block;
+  color: #555555;
+}
+
+.samsung-header-admin {
+  background: #eaeaea;
+  padding: 50px;
+}
+
+.samsung-header-admin .link-admin-home {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #4ebeea;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.samsung-header-admin .title {
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.samsung-navbar {
+  background: #636363;
+  padding: 10px;
+  border: 1px solid #636363;
+  border-radius: 0px;
+  margin: 0px;
+}
+
+.samsung-navbar .navbar-brand {
+  padding: 10px 15px;
+  margin-right: 50px;
+}
+
+.samsung-navbar .navbar-brand img {
+  width: 150px;
+}
+
+.samsung-navbar .navbar-right a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.samsung-navbar .navbar-right a span {
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.samsung-header-title {
+  background: #555555;
+  padding: 40px;
+}
+
+.samsung-header-title h1 {
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+.samsung-header-title span {
+  font-size: 13px;
+  color: #b1db75;
+  font-weight: 300;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+.container-samsung {
+  background: white;
+  margin-top: 35px;
+  padding: 15px;
+  margin-bottom: 35px;
+}
+
+.link-admin {
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: #fff;
+  background: #555555;
+}
+
+.link-admin:hover {
+  text-decoration: none;
+  color: #fff;
+}
+

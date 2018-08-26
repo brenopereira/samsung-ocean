@@ -1,0 +1,36 @@
+/*!
+ *
+ * Estágio - Samsung Ocean - admin.scss
+ *
+ * Todos os direitos reservados: brenopereira <breno.pereira@alumiar.me>
+ * Arquivo alterado em: 8/25/18 5:19 AM
+ *
+ */
+
+@import 'components/nav';
+@import 'components/header';
+@import 'components/navbar';
+@import 'components/title';
+
+body {
+  background-color: #eaeaea;
+}
+
+.container-samsung {
+  background: rgb(255, 255, 255);
+  margin-top: 35px;
+  padding: 15px;
+  margin-bottom: 35px;
+}
+
+.link-admin {
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: #fff;
+  background: #555555;
+}
+
+.link-admin:hover {
+  text-decoration: none;
+  color: #fff;
+}
