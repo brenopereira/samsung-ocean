@@ -26,6 +26,8 @@ O projeto se tornou em SPA, onde  não há reload da página para a navegação 
 
 ## Como rodar o projeto
 
+*Você pode usar o WAMP e criar um virtualhost apontando para o /public do projeto, irá pegar normalmente.
+
 Observação importante: Para utilizar o projeto você deverá conter o PHP 7.1.3 ou superior a esta versão. Para baixar todos os pacotes necessários, deverá também ter o [Composer para windows](https://getcomposer.org/Composer-Setup.exe) ou [Composer para Linux/MacOS](https://getcomposer.org/download/) e rodar o comando após a intalação no diretório do projeto: composer update - Será instalado todos os pacotes necessários.
 
 Para alterações no componentes do ReactJS você precisará do [NodeJS](https://nodejs.org) para compilar os arquivos em JavaScript.
