@@ -24,9 +24,12 @@ O projeto se tornou em SPA, onde  não há reload da página para a navegação 
 - POST - /administrador/noticias/adicionar - Rota reservada ao método POST para salvar os dados da criação da notícia ao banco de dados (regras de campos inseridas, ex: Título obrigatório, etc.).
 - GET - /administrador/noticias/apagar{slug} - Rota reservada para apagar uma notícia filtrada pelo SLUG.
 
+## Banco de dados
+- Arquivo: samsung.sql - Há todo o banco de dados com 20 notícias, podendo cadastrar mais via painel.
+
 ## Como rodar o projeto
 
-*Você pode usar o WAMP e criar um virtualhost apontando para o /public do projeto, irá pegar normalmente.
+*Você pode usar o WAMP e criar um virtualhost apontando para a pasta /public do projeto, irá pegar normalmente.
 
 Observação importante: Para utilizar o projeto você deverá conter o PHP 7.1.3 ou superior a esta versão. Para baixar todos os pacotes necessários, deverá também ter o [Composer para windows](https://getcomposer.org/Composer-Setup.exe) ou [Composer para Linux/MacOS](https://getcomposer.org/download/) e rodar o comando após a intalação no diretório do projeto: composer update - Será instalado todos os pacotes necessários.
 
