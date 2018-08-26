@@ -36,7 +36,7 @@ Observação importante: Para utilizar o projeto você deverá conter o PHP 7.1.
 Para alterações no componentes do ReactJS você precisará do [NodeJS](https://nodejs.org) para compilar os arquivos em JavaScript.
 
 - Para rodar o projeto, é ncessário alterar o arquivo .env (arquivo onde fica as informações do banco de dados), alterando: DB_DATABASE, DB_USERNAME e DB_PASSWORD com as informações do seu servidor de banco de dados
-- Rode o comando "php artisan migrate:refresh", irá criar todas as tabelas no seu banco de dados automáticamente, sem precisar importar o arquivo.
+- Rode o comando "php artisan migrate:refresh", irá criar todas as tabelas no seu banco de dados automático, sem precisar importar o arquivo.
 - Rode o comando "php artisan serve", na pasta do projeto para inciar o projeto e acessar: http://localhost:8000, ou configurar o servidor web para a pasta public ou então, copiar todo o projeto para o WAMP, XAMPP, EasyPHP ou outro servidor integrado. 
 - Rode o comando: "php artisan storage:link" para linkar todas as imagens as notícias.
 
