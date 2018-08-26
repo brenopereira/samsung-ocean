@@ -71,6 +71,10 @@ class NoticiaEloquent implements NoticiaInterface {
         return $this->noticia->paginate($pages);
     }
 
+    /**
+     * @param $slug
+     * @return mixed
+     */
     public function destroy($slug)
     {
         return $this->find($slug)->delete();
